@@ -56,9 +56,9 @@ const Navbar = () => {
           <Link href={"/"} className=" text-xl">
             <Image
               alt="logo"
-              src={"/assets/images/laboratory.png"}
-              width={60}
-              height={60}
+              src={"/assets/images/microscope.png"}
+              width={50}
+              height={50}
             ></Image>
             <p className="font-bold">LabSync</p>
           </Link>

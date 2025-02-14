@@ -4,7 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { CiLocationArrow1 } from "react-icons/ci";
 const Header = () => {
   return (
-    <div className="flex gap-28 items-center border-b">
+    <div className="flex gap-28 items-center border-b bg-base-200">
       <div className="flex w-2/5  bg-blue-900 text-white items-center gap-5  rounded-tr-[10%_90%] px-5 py-3 ">
         <p>Fast, <span className="font-semibold text-blue-200">Accurate</span> Lab Services.</p>
         <p className="flex items-center gap-1">
