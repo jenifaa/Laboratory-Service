@@ -14,7 +14,7 @@ const Page = () => {
 
   return (
     <div>
-      <h2 className="text-center text-6xl font-bold mt-7">Our Services</h2>
+      <h2 className="text-center text-6xl font font-bold mt-7">Our Services</h2>
       <div className="mb-10 grid grid-cols-1 gap-12 px-12 py-10">
         {services.map((service, index) => (
           <div

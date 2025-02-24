@@ -3,13 +3,13 @@ import Image from "next/image";
 import bg from '../../public/assets/images/lab.jpg'
 const Newsletter = () => {
   return (
-    <div className="container mx-auto px-6 py-16">
+    <div className=" mx-auto  py-16 w-11/12">
       {/* Hero Section */}
       <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
         {/* Text Content */}
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-5xl font-bold text-gray-800 mb-4">Stay Updated, Stay Ahead!</h1>
-          <p className="text-lg text-gray-600 mb-6">
+          <h1 className="text-5xl font-bold text-gray-800 font mb-4">Stay Updated, Stay Ahead!</h1>
+          <p className="text-md text-gray-600 mb-6">
             Join our exclusive newsletter for the latest trends, expert insights, and special offers.
           </p>
           <div className="bg-white p-6 shadow-lg rounded-lg max-w-lg mx-auto lg:mx-0">
@@ -17,7 +17,7 @@ const Newsletter = () => {
             <form className="space-y-4">
               <input type="text" placeholder="Your Name" className="input input-bordered w-full" required />
               <input type="email" placeholder="Your Email" className="input input-bordered w-full" required />
-              <button type="submit" className="btn btn-primary w-full flex items-center justify-center">
+              <button type="submit" className="btn bg-blue-950 text-white w-full flex items-center justify-center">
                 <FaPaperPlane className="mr-2" /> Subscribe Now
               </button>
             </form>
@@ -41,7 +41,7 @@ const Newsletter = () => {
 
       {/* Testimonials Section */}
       <div className="mt-16">
-        <h2 className="text-3xl font-semibold text-center mb-8">What Our Subscribers Say</h2>
+        <h2 className="text-3xl font-semibold text-center font mb-8">What Our Subscribers Say</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Review 1 */}
           <div className="bg-white p-6 shadow-lg rounded-lg">
@@ -72,7 +72,7 @@ const Newsletter = () => {
 
       {/* Social Media Links */}
       <div className="mt-12 text-center">
-        <h3 className="text-xl font-semibold mb-4">Follow Us for More Updates</h3>
+        <h3 className="text-xl font-semibold font mb-4">Follow Us for More Updates</h3>
         <div className="flex justify-center space-x-4">
           <a href="#" className="text-blue-600 text-3xl hover:text-blue-800 transition">
             <FaFacebook />
