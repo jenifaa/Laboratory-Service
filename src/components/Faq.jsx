@@ -38,8 +38,8 @@ const Faq = () => {
 
   return (
     <div className="container mx-auto px-6 py-16">
-      <h1 className="text-5xl font-bold text-center mb-12 text-gray-800 flex items-center justify-center gap-3">
-        <FaQuestionCircle className="text-blue-600" /> Frequently Asked Questions
+      <h1 className="text-5xl font-bold text-center font mb-12 text-gray-800 flex items-center justify-center gap-3">
+        <FaQuestionCircle className="text-blue-950" /> Frequently Asked Questions
       </h1>
       <div className="max-w-3xl mx-auto">
         {faqData.map((faq, index) => (

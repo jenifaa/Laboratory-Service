@@ -29,7 +29,7 @@ const latestUpdates = [
 
 const LatestUpdate = () => {
   return (
-    <div className="container mx-auto p-6">
+    <div className="w-11/12 mx-auto ">
       <h1 className="text-5xl font-bold text-center font mb-16">📢See Our Latest Updates</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {latestUpdates.map((update) => (
@@ -48,7 +48,7 @@ const LatestUpdate = () => {
               </div>
               <p className="text-gray-700 mb-4">{update.description}</p>
               <div className="flex justify-end">
-                <Link href="/blog" className="flex items-center bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
+                <Link href="/blog" className="flex items-center bg-blue-950 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
                   <FaInfoCircle className="mr-2" /> Learn More
                 </Link>
               </div>

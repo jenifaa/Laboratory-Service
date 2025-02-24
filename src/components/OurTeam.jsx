@@ -53,7 +53,7 @@ const teamMembers = [
 
 const OurTeam = () => {
   return (
-    <div className="container mx-auto px-6 py-12">
+    <div className="w-11/12 mx-auto py-12">
       <h1 className="text-5xl font font-bold text-center mb-12 flex items-center justify-center gap-3">
         🏥 Our Professional Team
       </h1>
