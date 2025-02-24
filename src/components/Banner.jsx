@@ -10,6 +10,7 @@ import banner3 from "../../public/assets/images/labwork3.jpg";
 import { FaCalendarAlt } from "react-icons/fa";
 import { MdPermContactCalendar } from "react-icons/md";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const Banner = () => {
   return (
     <div
@@ -25,10 +26,10 @@ const Banner = () => {
 
       <div className="absolute inset-0 flex px-10 flex-col md:flex-row items-center justify-between  bg-white/70">
         <div className="md:w-1/2 animate__animated animate__fadeInLeft">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          <h1 className="text-4xl font md:text-6xl font-bold mb-4">
             Where Science Meets
           </h1>
-          <p className="text-4xl md:text-5xl font-bold mb-10">
+          <p className="text-4xl font md:text-5xl font-bold mb-10">
             Precision in Diagnostics.
           </p>
           <p className="mt-4 mb-3 ">
@@ -44,12 +45,12 @@ const Banner = () => {
             highest standards of care.
           </p>
           <div className="flex items-center gap-7 mt-7">
-            <button className="border rounded-full px-5 py-2 bg-blue-950 text-white flex items-center gap-2">
+            <Link href="/appointment" className="border rounded-full px-5 py-2 bg-blue-950 text-white flex items-center gap-2">
               <FaCalendarAlt></FaCalendarAlt> Appointment
-            </button>
-            <button className="border border-black rounded-full px-7 py-2 flex items-center gap-2">
+            </Link>
+            <Link href="/contact" className="border border-black rounded-full px-7 py-2 flex items-center gap-2">
               <MdPermContactCalendar></MdPermContactCalendar>Contact Us
-            </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-row  gap-5 md:w-1/2 justify-end items-center px-10">

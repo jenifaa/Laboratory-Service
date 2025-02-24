@@ -4,10 +4,10 @@ import labTask2 from "../../public/assets/images/labtest2.jpg";
 
 const About = () => {
   return (
-    <div className="bg-base-200 py-16">
+    <div className=" my-10">
       <div className="flex justify-between items-center w-11/12 mx-auto my-16 bg-white shadow-lg rounded-lg p-8">
         <div className="w-3/5">
-          <h2 className="text-4xl font-bold mb-4 leading-snug text-gray-800">
+          <h2 className="text-4xl font-bold mb-4 leading-snug font text-gray-800">
             🚀 Advancing Science & Innovation Through Biochemical Engineering   🌿 
           </h2>
           <p className="text-lg text-gray-700 mb-6">
@@ -40,7 +40,7 @@ const About = () => {
           ></Image>
         </div>
         <div className="w-3/5">
-          <h2 className="text-4xl font-bold mb-4 leading-snug text-gray-800">
+          <h2 className="text-4xl font-bold mb-4 leading-snug font text-gray-800">
             🦠 Unlocking the Mysteries of Microorganisms: Advancing Science for Better Health and Innovation  🍄 
           </h2>
           <p className="text-lg md:text-xl mb-6 text-gray-700">

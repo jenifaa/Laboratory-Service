@@ -1,98 +1,101 @@
+
+
+
 {
     "services": [
       {
         "id": 1,
         "title": "Lab Testing",
-        "icon": "FaMicroscope",
-        "image": "/assets/images/labtest.jpg",
+        "icon": "https://i.ibb.co.com/Q7MqqvmZ/microscope-1.png",
+        "image": "https://i.ibb.co.com/nMqRvYqW/labwork.webp",
         "description": "Accurate and fast lab tests for all your needs.",
         "details": "Our laboratory offers a wide range of diagnostic testing, from routine blood work to specialized tests, ensuring fast, reliable, and accurate results for all medical conditions. We utilize state-of-the-art technology and expert professionals to guarantee high-quality results. Our services include comprehensive testing for various health conditions such as diabetes, cholesterol, thyroid, and liver function, as well as infectious diseases, metabolic disorders, and more. Trust us for fast, accurate, and affordable lab tests."
       },
       {
         "id": 2,
         "title": "Blood Analysis",
-        "icon": "FaVials",
-        "image": "/assets/images/bloodanalysis.jpg",
+        "icon": "https://i.ibb.co.com/cXrmvzp9/blood-tube.png",
+        "image": "https://i.ibb.co.com/BK37YXx3/blood.jpg",
         "description": "Detailed blood testing for precise diagnostics.",
         "details": "Blood analysis is a critical part of diagnosing a wide variety of conditions. Our advanced blood testing services include a variety of tests to analyze blood composition, detect diseases, monitor overall health, and evaluate organ function. From complete blood counts to specific tests for infections, diabetes, anemia, and more, we provide thorough analysis to ensure accurate diagnoses and optimal treatment planning. Our laboratory uses cutting-edge technology and the highest standards of quality assurance."
       },
       {
         "id": 3,
         "title": "Cardiac Screening",
-        "icon": "FaHeartbeat",
-        "image": "/assets/images/cardiacscreening.jpg",
+        "icon": "https://i.ibb.co.com/Pzs7PWjM/pulse.png",
+        "image": "https://i.ibb.co.com/0jMn7dMG/cardiac.jpg",
         "description": "Advanced heart health monitoring and tests.",
         "details": "Our cardiac screening services are designed to detect early signs of heart disease and provide a detailed assessment of heart health. We offer a wide range of diagnostic tests, including EKGs, echocardiograms, stress tests, and more. These tests can help identify risk factors such as high cholesterol, hypertension, and other underlying conditions. Regular cardiac screenings are essential for detecting potential heart issues before they become serious problems, providing peace of mind and ensuring a healthy heart."
       },
       {
         "id": 4,
         "title": "Consultation",
-        "icon": "FaUserMd",
-        "image": "/assets/images/consultation.jpg",
+        "icon": "https://i.ibb.co.com/7dSBbqVX/doctors-office.png",
+        "image": "https://i.ibb.co.com/TD9sd2hj/Consultation.webp",
         "description": "Expert medical advice from certified doctors.",
         "details": "Our consultation services connect you with certified medical professionals who provide expert advice on health and wellness. Whether you're looking for advice on preventive care, diagnosis of symptoms, or management of chronic conditions, our experienced doctors are here to help. Consultations are available for general health concerns, specialized issues, and routine checkups. Our goal is to provide you with the best care possible, helping you make informed decisions for your health."
       },
       {
         "id": 5,
         "title": "X-Ray & Imaging",
-        "icon": "FaXRay",
-        "image": "/assets/images/xrayimaging.jpg",
+        "icon": "https://i.ibb.co.com/fzZPGTr2/x-ray.png",
+        "image": "https://i.ibb.co.com/Xx3Mt2M9/X-Ray.webp",
         "description": "High-resolution imaging for accurate assessments.",
         "details": "X-ray and imaging technology allows for a non-invasive look into the body’s internal structures, aiding in the diagnosis of a wide range of conditions. From bone fractures to lung infections, our imaging services are designed to help identify problems quickly and accurately. With our high-resolution imaging equipment, we offer clear and detailed images to help doctors make informed decisions about your care. This diagnostic tool is a key component in identifying conditions early and determining the best treatment options."
       },
       {
         "id": 6,
         "title": "Chemical Analysis",
-        "icon": "FaFlask",
-        "image": "/assets/images/chemicalanalysis.jpg",
+        "icon": "https://i.ibb.co.com/3PnRJcp/chemical-analysis.png",
+        "image": "https://i.ibb.co.com/cK0SZcW6/Chemical.jpg",
         "description": "Comprehensive chemical and pathology testing.",
         "details": "Our chemical analysis services cover a broad spectrum of testing to assess various chemical compounds in bodily fluids, tissues, and other samples. These tests are crucial for detecting metabolic disorders, toxicity levels, and other chemical imbalances in the body. With the help of state-of-the-art lab equipment, we provide accurate chemical testing for both routine and specialized needs. Our services are widely used in medical diagnostics, research, and industrial applications, ensuring precise and reliable results every time."
       },
       {
         "id": 7,
         "title": "Bioprocess Engineering",
-        "icon": "FaDna",
-        "image": "/assets/images/bioprocessengineering.jpg",
+        "icon": "https://i.ibb.co.com/WNbkG62X/dna.png",
+        "image": "https://i.ibb.co.com/Csn2jmxy/Bioprocess.jpg",
         "description": "Optimized bioprocess solutions for industrial applications.",
         "details": "Bioprocess engineering involves designing and optimizing biological processes for large-scale production of bio-based products. Our bioprocess engineering services include designing fermentation processes, optimizing cell culture systems, and scaling up production for various industrial applications. We work closely with industries to implement efficient and cost-effective bioprocesses, ensuring high yields and sustainability in product manufacturing. Whether you're in pharmaceuticals, food processing, or biofuels, we provide solutions to meet your specific production needs."
       },
       {
         "id": 8,
         "title": "Genetic Analysis",
-        "icon": "FaUserNurse",
-        "image": "/assets/images/geneticanalysis.jpg",
+        "icon": "https://i.ibb.co.com/sdxsp1MB/dna-1.png",
+        "image": "https://i.ibb.co.com/7NdGdr4X/Genetic.png",
         "description": "Cutting-edge genetic screening and modification techniques.",
         "details": "Genetic analysis is a vital tool in diagnosing inherited conditions, identifying genetic predispositions to diseases, and optimizing personalized treatments. Our genetic analysis services offer advanced screening techniques, including whole genome sequencing and gene expression profiling. Whether for health risk assessment, prenatal screening, or personalized medicine, we provide accurate and reliable results, helping doctors make informed decisions for tailored healthcare strategies. Our team of geneticists ensures the highest standards of ethical practices in all genetic analysis services."
       },
       {
         "id": 9,
         "title": "Microbial Fermentation",
-        "icon": "FaBacterium",
-        "image": "/assets/images/microbialfermentation.jpg",
+        "icon": "https://i.ibb.co.com/JbCfmzP/bacteria.png",
+        "image": "https://i.ibb.co.com/LD1mkWBS/Microbial.webp",
         "description": "Innovative microbial fermentation for biotech advancements.",
         "details": "Microbial fermentation is at the heart of numerous biotechnology processes, from drug production to biofuel generation. Our services specialize in optimizing fermentation processes using microorganisms to produce valuable products. We utilize cutting-edge fermentation technologies, ensuring high yield and efficiency in producing pharmaceuticals, enzymes, biofuels, and other bioproducts. Our fermentation services include process optimization, strain selection, and scale-up for industrial applications, providing solutions for a variety of industries, including healthcare, food, and energy."
       },
       {
         "id": 10,
         "title": "Enzyme Engineering",
-        "icon": "FaFlask",
-        "image": "/assets/images/enzymeengineering.jpg",
+        "icon": "https://i.ibb.co.com/RknGPBhq/enzymes.png",
+        "image": "https://i.ibb.co.com/G4qZ4jT4/Enzyme.jpg",
         "description": "Design and application of enzymes for industrial use.",
         "details": "Enzyme engineering involves the design and optimization of enzymes for specific industrial applications. Our enzyme engineering services focus on creating enzymes that enhance production processes across industries such as pharmaceuticals, food processing, and agriculture. By modifying enzyme properties, we improve reaction rates, stability, and specificity, helping industries meet increasing demands for efficiency and sustainability. Our team uses state-of-the-art techniques to design enzymes that perform under harsh industrial conditions, offering practical solutions for everyday challenges."
       },
       {
         "id": 11,
         "title": "Biomaterial Development",
-        "icon": "FaCubes",
-        "image": "/assets/images/biomaterialdevelopment.jpg",
+        "icon": "https://i.ibb.co.com/Q7MqqvmZ/microscope-1.png",
+        "image": "https://i.ibb.co.com/jv40gPBX/bio-Material04.jpg",
         "description": "Advanced biomaterials for medical and industrial applications.",
         "details": "Biomaterial development plays a crucial role in the creation of materials that interact with biological systems. Our services focus on the design and production of advanced biomaterials used in a wide range of applications, including medical implants, drug delivery systems, and tissue engineering. We create biomaterials that mimic natural tissues, providing the necessary support for tissue regeneration and healing. Whether you're in the medical, dental, or pharmaceutical industries, our biomaterials are tailored to your specific needs, ensuring safety, effectiveness, and long-term viability."
       },
       {
         "id": 12,
         "title": "Tissue Engineering",
-        "icon": "FaMicroscope",
-        "image": "/assets/images/tissueengineering.jpg",
+        "icon": "https://i.ibb.co.com/Q7MqqvmZ/microscope-1.png",
+        "image": "https://i.ibb.co.com/VRDJ9xb/Tissue.jpg",
         "description": "Regenerative medicine and artificial tissue development.",
         "details": "Tissue engineering is an emerging field focused on the development of biological tissues for medical use. We offer cutting-edge tissue engineering services aimed at creating artificial tissues that can replace or repair damaged body parts. This includes growing tissues in the lab for use in medical treatments such as organ transplants, wound healing, and regenerative medicine. Our team uses advanced cell culture techniques and biomaterial scaffolds to support tissue growth and regeneration. The result is innovative solutions for patients in need of organ replacements or tissue repair."
       }
